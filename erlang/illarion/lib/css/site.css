@@ -1,0 +1,50 @@
+/* This file is part of the Illarion project.
+ *
+ * Copyright © 2014 - Illarion e.V.
+ *
+ * Illarion is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * Illarion is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details. */
+
+/* Define your site-specific styles here. */
+body {
+    background: #000 url("/lib/images/background.jpg") repeat-x fixed 0 0;
+    padding-top: 160px;
+}
+
+.navbar-fixed-top {
+    background:transparent url("/lib/images/illa_logo_background.png") repeat-x scroll 0 22px;
+    background-position: 0px 0px;
+    margin-left: 15px;
+}
+
+.navbar .brand {
+    padding-top: 0px;
+    margin-left: -38px;
+    color: #d4b96e;
+    font: normal normal normal 12pt/13pt Constantia,Georgia,"Book Antiqua","DejaVu Serif",serif;
+}
+
+.hero-unit {
+    background: #9f8a5b url("/lib/images/pergament.jpg") repeat scroll left top;
+    padding: 30px;
+}
+
+.hero-unit p {
+    font: normal normal normal 12pt/13pt Constantia,Georgia,"Book Antiqua","DejaVu Serif",serif;
+    color: #000;
+    direction: ltr;
+}
+
+.hero-unit h1 {
+    font: normal normal bold 22pt/25pt Constantia,Georgia,"Book Antiqua","DejaVu Serif",serif;
+    color: #000;
+}
+
+
