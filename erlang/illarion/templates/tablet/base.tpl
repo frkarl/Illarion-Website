@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <!--
 %% This file is part of the Illarion project.
 %%
@@ -13,7 +14,6 @@
 %% MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 %% GNU General Public License for more details. 
 -->
-<!DOCTYPE html>
 <html lang="{{ z_language|default:"en"|escape }}">
 <head>
 	<meta charset="utf-8" />

@@ -1,3 +1,4 @@
+{% extends "base.tpl" %}
 <!--
 %% This file is part of the Illarion project.
 %%
@@ -13,7 +14,6 @@
 %% MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 %% GNU General Public License for more details. 
 -->
-{% extends "base.tpl" %}
 
 {% block title %}{{ m.site.title }}{% endblock %}
 
