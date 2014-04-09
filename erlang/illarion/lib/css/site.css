@@ -47,4 +47,34 @@ body {
     color: #000;
 }
 
-
+.button {
+    float: right;
+    border-top: 1px solid #787a62;
+    background: #c3c4b5;
+    background: -webkit-gradient(linear, left top, left bottom, from(#241608), to(#c3c4b5));
+    background: -webkit-linear-gradient(top, #241608, #c3c4b5);
+    background: -moz-linear-gradient(top, #241608, #c3c4b5);
+    background: -ms-linear-gradient(top, #241608, #c3c4b5);
+    background: -o-linear-gradient(top, #241608, #c3c4b5);
+    padding: 15px 80px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    border-radius: 24px;
+    -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    box-shadow: rgba(0,0,0,1) 0 1px 0;
+    text-shadow: rgba(0,0,0,.4) 0 1px 0;
+    color: #000000;
+    font: normal normal bold 22pt/25pt Constantia,Georgia,"Book Antiqua","DejaVu Serif",serif;
+    text-decoration: none;
+    vertical-align: middle;
+}
+.button:hover {
+    border-top-color: #6b6548;
+    background: #6b6548;
+    color: #ccc;
+}
+.button:active {
+    border-top-color: #c3c4b5;
+    background: #241608;
+}

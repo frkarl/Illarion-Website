@@ -33,6 +33,7 @@
 	        "css/jquery.loadmask.css" 
 	        "css/z.growl.css" 
 	        "css/z.modal.css"
+            "css/zp-slideshow.css"
 	        "css/site.css" 
 	%}
 	{% block html_head_extra %}{% endblock %}
@@ -72,7 +73,11 @@
 	{% include "_footer.tpl" %}
 </div>
 
+
 {% include "_js_include.tpl" %}
+{% lib
+    "js/modules/z.cycle.js"
+%}
 {% script %}
 
 {% block ua_probe %}

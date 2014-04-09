@@ -26,4 +26,14 @@
 
 {% endblock %}
 
+{% block subnavbar %}
+<a href="#" class="button">Register</a>
+
+ {% media m.rsc[324] %}
+ {% include "_slideshow_media.tpl" %}
+ 
+{% endblock %}
+
+
+
 
