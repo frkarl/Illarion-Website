@@ -27,11 +27,10 @@
 {% endblock %}
 
 {% block subnavbar %}
+
 <a href="#" class="button">Register</a>
 
- {% media m.rsc[324] %}
- {% include "_slideshow_media.tpl" %}
- 
+{% slideshow category="Screenshots" html_tag="demo-slides" %}
 {% endblock %}
 
 

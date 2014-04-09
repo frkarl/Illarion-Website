@@ -33,7 +33,7 @@
 	        "css/jquery.loadmask.css" 
 	        "css/z.growl.css" 
 	        "css/z.modal.css"
-            "css/zp-slideshow.css"
+            "css/responsiveslides.css"
 	        "css/site.css" 
 	%}
 	{% block html_head_extra %}{% endblock %}
@@ -76,8 +76,18 @@
 
 {% include "_js_include.tpl" %}
 {% lib
-    "js/modules/z.cycle.js"
+    "js/responsiveslides.js"
 %}
+<script>
+  $(function() {
+      $(".demo-slides").responsiveSlides({
+  auto: true,             // Boolean: Animate automatically, true or false
+  speed: 500,            // Integer: Speed of the transition, in milliseconds
+  timeout: 4000,          // Integer: Time between slide transitions, in milliseconds
+  pager: true,           // Boolean: Show pager, true or false
+  });
+  });
+</script>
 {% script %}
 
 {% block ua_probe %}

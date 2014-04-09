@@ -23,9 +23,9 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </a>
-
+        <center>Free open-source role-playing enforced MMORPG</center>
         <a class="brand" href="/"><img src="lib/images/illa_logo.png" class="logo" alt="">
-            Free open-source role-playing enforced MMORPG
+            
         </a>
         
         <div class="nav-collapse">
